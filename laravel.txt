@@ -1,0 +1,381 @@
+01)what is facade ?
+-> it is a static interface
+-> reusable code
+
+02)what is service provider ?
+config -> app.php
+
+two methods
+01) register
+02) boot
+
+03) what is service container ?
+-> make object of the service provider class
+-> manage the dependence 
+
+04) what is namespace?
+
+05) what is herd?
+
+06) Laravel unit testing?
+   -> unite
+   -> feature
+
+07) what is Laravel pulse?
+08) what is Laravel prompts?
+
+09) what is trait ?
+-> https://www.youtube.com/watch?v=OJ5fmrMMcDU&list=PL0b6OzIxLPbwoi6Urr4LZTz2AMMCtzqDt&index=10
+-> is simple reusable code which we can use in diff function
+
+10) what is helper function in Laravel ?
+- > 
+
+11) what is access modifier ? 
+    public 
+    protected
+    private
+
+12) what is abstract class?
+-> abstarrtc class is a incomplete class
+-> just define the function but do not wight the code 
+-> code wright in the derive class
+
+13) what is interface ?
+-> similer to abstract class but all methods are declare in  derive class
+
+14) what is static members?
+-> https://www.youtube.com/watch?v=Gnnge0Jv3dc&list=PL0b6OzIxLPbwoi6Urr4LZTz2AMMCtzqDt&index=8
+-> if you are using the static use self:: keyword in function 
+
+
+15) what is name space ?
+-> in the php we can't use the same name function in same file , nanme space is solution for that kind of problem.
+->https://www.youtube.com/watch?v=YgUOSY581Wg
+
+
+16) what is magic method in php ?
+-> automatically run based on some condition
+-> they starts with prefix __ function  
+
+17) what is destruct method ? and why we use ?
+->  automatically called when object work is done
+
+18) what is polymorphism?
+-> calare() example
+- > according to the polymorphism principle, method in diff class that do the similer thing should have the same name.
+
+19) what is encapsulation ?
+-> it is used to safe data or info in a object 
+-> in simple word it is use for protection purpose
+-> access specifier/modifier
+-> public, private and protected 
+
+20) what is polymorphic relanshhip?
+
+-> page, comment and post example 
+posts:
+  id
+  title
+  content
+  
+pages:
+  id
+  body
+  
+comments:
+  id
+  commentable_id
+  commentable_type
+  date
+  body
+
+
+21) what is singleton pattern in Laravel ?
+-> https://www.youtube.com/watch?v=ru9Y4RZ-cuQ
+-> only one time object created second time not need to call again
+
+22) what is many to many rel ?
+-> user and user_role 
+-> user have multiple roles 
+-> roles have a multiple users
+-> for that we need a 3 table
+-> one is pivot table
+
+23) what .htacess file in Laravel ?
+-> server related configuration 
+
+
+24) what is robot.txt file ?
+
+
+25) types of join ?
+
+
+26) Explain the Laravel cursor method ?
+-> 
+
+27) what is store procedure in MySQL ?
+-> https://www.youtube.com/watch?v=dwVj_g3TpZ4
+
+28) what is rest api and soap api ?
+->SOAP and REST are two internet data exchange mechanisms.
+- > Rest api - represnatational state tranfer
+-> soap api - simple object access protocol
+
+
+29) what is composer.json and composer.lock ?
+
+30) what is a app key in Laravel ?
+-> Laravel uses the APP_KEY to encrypt and decrypt data such as cookies, sessions, and other sensitive data stored by your application. Encryption ensures that data remains secure when stored or transmitted, protecting it from unauthorized access
+
+31) diff between character and string ?
+- > 
+
+32) what is get and post method ?
+-> get- 2048 characters. store only asci value 
+-> post- no limitation, store asci and binary both
+
+
+33) all methods api ?
+-> https://www.w3schools.com/tags/ref_httpmethods.asp
+
+34) what is cursor method in Laravel ?
+-> 
+
+35) what is index?
+-> https://www.youtube.com/watch?v=vRJM1sDrocM
+- > it is mostly user for searching 
+- > use if you are using with thousand of records
+-> fast searching
+
+36) what is cors?
+-> CORS errors happen when a webpage makes a request to a different domain than the one that served the page, and the server responds with an HTTP error because the “Origin” header in the request is not allowed by the server's CORS configuration
+-> cross origin resource sharing
+-> suppose we pass some request to another resource that time we will get cors erro.
+
+37) how we can disblae package in Laravel ?
+
+38) what is DBMS and RDMS ? what is MySQL used?
+- > mysql used RDMS
+
+39) what is the use of === ?
+-> it is check the type of variable
+
+40) what is Arbitrary Arguments, *args ?
+-> if we dont know how many arg we need to pass in the function 
+
+
+41) What is an Iterable? 
+
+
+42) mysql trigger ?
+-> https://www.mysqltutorial.org/advanced-mysql/
+-> trigger that is invoked automatically before a new row is inserted into a table
+-> two types of trigger
+-> 1)row-level and 2) statment level
+A row-level trigger is activated for each row that is inserted, updated, or deleted. For example, if a table has 100 rows inserted, updated, or deleted, the trigger is automatically invoked 100 times for the 100 rows affected.
+A statement-level trigger is executed once for each transaction regardless of how many rows are inserted, updated, or deleted.
+
+
+
+43) what is authentication and authorization ?
+
+-> authentication means who r u ?
+-> authorization means what can u do ?
+-> authentication what rights we have ?
+
+
+44) is the jwt tocken provided the multiple authentication ?
+
+
+45) why we use try catch ?
+-> The try statement allows you to define a block of code to be tested for errors while it is being executed
+-> The catch statement allows you to define a block of code to be executed, if an error occurs in the try block
+
+46) what is laravel live wire ?
+->
+
+47) what is laravel filament ?
+-> 
+
+
+48)What is a Service Container?
+A service container (also known as a dependency injection container) is a central place to manage class dependencies and their instances. It allows you to define how to instantiate and configure your classes.
+
+Key Features
+Dependency Injection: The service container facilitates dependency injection, allowing classes to request their dependencies rather than create them themselves. This promotes loose coupling and makes the code easier to test and maintain.
+
+Binding: You can bind classes, interfaces, or closure callbacks to the service container, defining how they should be resolved.
+
+Resolution: The service container can resolve classes and their dependencies automatically, either through explicit binding or through auto-wiring.
+
+Singletons: You can define singletons in the service container to ensure that a class is only instantiated once and the same instance is used throughout the application.
+
+49)what is clouser ?
+-> In PHP and Laravel, a closure is an anonymous function that can capture variables from its surrounding scope. Closures are often used for callback functions.
+
+
+
+50)what is final keyword ?
+->
+
+
+
+51)Why Use Service Providers?
+Service providers are used in Laravel for several reasons:
+
+Centralized Configuration: Service providers offer a centralized place to configure and initialize services. This makes it easier to manage dependencies and configuration settings.
+
+Dependency Injection: By registering services in a service provider, you enable Laravel's dependency injection mechanism to automatically inject dependencies into your classes.
+
+Decoupling: Service providers help in decoupling the application's components, making it easier to manage and maintain. Each service provider can handle the configuration of a specific set of services.
+
+Lazy Loading: Service providers can register services in a way that they are only loaded when needed. This can help improve the performance of your application.
+
+Modularity: Service providers promote modularity by allowing you to group related services together. For instance, you might have a service provider for handling authentication services, another for managing logging, and so on.
+
+
+52) what is service provider?
+
+n Laravel, a service provider is a central component used for bootstrapping, configuring, and initializing various services your application needs. It essentially acts as a registration and initialization class for binding services into the service container, registering event listeners, middleware, routes, and performing other setup tasks necessary for the application.
+
+Key Concepts of Service Providers
+Binding Services: Service providers are used to bind classes or services into the Laravel service container. This allows you to register dependencies and make them available for dependency injection.
+
+Bootstrapping: In the boot method of a service provider, you can perform actions that need to be executed after all services have been registered. This includes tasks like registering routes, event listeners, or middleware.
+
+Configuration: Service providers offer a way to configure and initialize services in a centralized location, making it easier to manage and maintain your application’s setup.
+
+53)what is authentication and authorization?
+
+Authentication: Confirms the identity of a user (e.g., logging in with a username and password).
+Authorization: Determines what an authenticated user is allowed to do (e.g., accessing certain pages, performing specific actions).
+
+54) what is gate and policy in laravel ?
+-> 
+
+55) what is call back function ?
+-> Laravel makes extensive use of callback functions in various parts of the framework, such as routing, middleware, event handling, and more.
+
+56) types of controller ?
+-> 1) basic 
+   2) resource
+   3) Invokable 
+   4) Dependency Injection in Controllers
+
+
+57) what is rest api ?
+
+58) name of 5 array function ?
+->array_add
+$originalArray = ['name' => 'John'];
+$newArray = array_add($originalArray, 'age', 30);
+
+// Output: ['name' => 'John', 'age' => 30]
+
+->inarray
+
+->array_sort
+$numbers = [5 => 'five', 3 => 'three', 1 => 'one'];
+$sortedNumbers = array_sort($numbers);
+
+// Output: [1 => 'one', 3 => 'three', 5 => 'five']
+
+59) name of 5 string function ?
+->(1)ucword (2)trim (3)rtrim (4)echo (5)print
+
+60) what is json decode and encode ?
+-> The json_decode() function is used to decode or convert a JSON object to a PHP object.
+-> The json_encode() function is used to encode a value to JSON format.
+default 
+61) what is cookie and session ?
+-> cookie :Cookies are small pieces of data stored on the client's browser. They are sent with every request to the server and can be used to track user information and preferences over time
+-> session :Sessions store data on the server-side and associate this data with a specific user through a session identifier (usually stored in a cookie on the client's browser). This allows for more secure and larger data storage compared to cookies
+Cookies: Limited to a small amount of data (usually up to 4KB).
+Sessions: Can store a larger amount of data.
+
+62) what is by time of session expire ?
+-> 24 min
+
+63) what is cast and hidden in laravel model ?
+-> hidden:This means that when you use methods like toArray(), toJson(), or when the model is automatically serialized (e.g., in API responses), these attributes will not be included.
+-> cast:it is used to convert attribute values to a specific data type when you retrieve or set them on the model. 
+
+64)use of finally in try catch ?
+-> whatever is the result this block is always run
+
+
+65) how we can migrate laravel 7 to 8?
+-> first you need to back up the db and change the doc of new vesrion 
+
+65) Db engine used in mysql?
+
+InnoDB: The default storage engine since MySQL 5.5. It provides support for transactions, foreign keys, and row-level locking. InnoDB is designed for high reliability and performance, making it suitable for most applications.
+
+MyISAM: The default storage engine prior to MySQL 5.5. It is not transaction-safe and does not support foreign keys but is known for its fast read operations, making it suitable for read-heavy applications.
+
+MEMORY: Stores all data in RAM, offering very fast access times but with the drawback that data is lost when the server is shut down. It is useful for temporary data or as a quick lookup table.
+
+CSV: Stores data in CSV (Comma Separated Values) files. It is useful for importing and exporting data in a format that can be easily read by many other programs.
+
+ARCHIVE: Optimized for storing large amounts of data that are infrequently accessed. It compresses data to save space.
+
+MERGE: Allows a collection of MyISAM tables to be handled as a single table. It is useful for splitting large read-only datasets into smaller, more manageable pieces.
+
+Federated: Allows you to create a table that refers to a table on another MySQL server, providing a way to access remote data without using replication or clustering.
+
+66) what sql injetion ?
+-> 
+
+
+67) name of trait available in laravel ?
+-> SoftDeletes,HasFactory,Notifiable,DispatchesJobs
+
+68)what is store procedurein mysql ?
+->
+
+69) what is view in mysql?
+-> In MySQL, a view is a virtual table that is based on the result set of an SQL query. It behaves like a regular table but does not store data physically. 
+
+ 
+70)what is facade ?
+In Laravel, a facade is a design pattern that provides a static interface to classes that are available in the application's service container
+Laravel includes many built-in facades. Some commonly used ones are:
+
+DB: Provides access to the database.
+Cache: Provides access to the caching system.
+Auth: Provides authentication-related methods.
+Log: Provides logging functionality.
+Route: Provides methods for defining and managing routes.
+
+71)what we can use for debugging ?
+->Dump and Die (dd) and dump
+->Telescope
+->Error and Exception Handling
+->Laravel Debugbar
+
+72) use of try and catch ?
+->are used for error handling and exception management
+
+73)how we can create a array in php?
+->
+
+74) purpose of $_get and $_post ?
+->In PHP, $_GET and $_POST are superglobal arrays used to 
+data sent via the HTTP GET and POST methods,
+
+75)diff btw print and echo ?
+-> echo does not return any value 
+-> print return always 1
+
+76) stable version of php?
+->8.2.6
+
+77) what is collection in laravel ?
+->In Laravel, a collection is a powerful, fluent wrapper for working with arrays of data
+groupBy, pluck
+
+78) what is superglobal array ?
+-> built-in global arrays 
+
