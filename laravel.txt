@@ -218,7 +218,7 @@ Singletons: You can define singletons in the service container to ensure that a 
 
 
 50)what is final keyword ?
-->
+-> final keyword is use to prevent the method overloading
 
 
 
@@ -326,7 +326,7 @@ MERGE: Allows a collection of MyISAM tables to be handled as a single table. It 
 Federated: Allows you to create a table that refers to a table on another MySQL server, providing a way to access remote data without using replication or clustering.
 
 66) what sql injetion ?
--> 
+-> SQL injection is a type of security vulnerability that allows an attacker to interfere with the queries that an application makes to its database
 
 
 67) name of trait available in laravel ?
