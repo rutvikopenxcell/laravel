@@ -29,7 +29,8 @@ two methods
 -> is simple reusable code which we can use in diff function
 
 10) what is helper function in Laravel ?
-- > 
+- > In Laravel, helper functions are globally accessible functions that provide shortcuts
+-> now(), today(), carbon(), format() ,dd()
 
 11) what is access modifier ? 
     public 
@@ -378,4 +379,8 @@ groupBy, pluck
 
 78) what is superglobal array ?
 -> built-in global arrays 
+
+79)what is the use of composer dump-autoload ?
+-> it is regenerates the list of all classes that need to be included in the project's autoload files (vendor/autoload.php). Here’s why and when you might use composer dump-autoload
+
 
