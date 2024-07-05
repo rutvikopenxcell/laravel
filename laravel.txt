@@ -367,7 +367,7 @@ Route: Provides methods for defining and managing routes.
 data sent via the HTTP GET and POST methods,
 
 75)diff btw print and echo ?
--> echo does not return any value 
+-> echo does not return any value    
 -> print return always 1
 
 76) stable version of php?
@@ -383,4 +383,22 @@ groupBy, pluck
 79)what is the use of composer dump-autoload ?
 -> it is regenerates the list of all classes that need to be included in the project's autoload files (vendor/autoload.php). Here’s why and when you might use composer dump-autoload
 
+80) what is acid properties?
+->ACID properties are a set of principles that ensure reliable processing of database transactions. ACID stands for Atomicity, Consistency, Isolation, and Durability.
 
+81) what is solid property?
+-> SOLID is an acronym that represents five principles of object-oriented design and programming. These principles aim to make software designs more understandable, flexible, and maintainable. 
+
+82) what is polymorphism?
+->The word "polymorphism" means "many forms", and in programming it refers to methods/functions/operators with the same name that can be executed on many objects or classes.
+
+83) what is Dependency Injection ?
+Dependency Injection (DI) is a design pattern used in object-oriented programming to achieve Inversion of Control (IoC) between classes and their dependencies. Instead of a class creating its dependencies, they are provided externally, typically by a framework or a container
+
+84) what is dry?
+->Don't Repeat Yourself
+
+85)what is union in laravel ?
+-> union is used ot remove the duplicate records
+
+86)
